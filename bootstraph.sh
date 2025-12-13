@@ -14,7 +14,7 @@ touch ansible.log
 
 cd $REPO_DIR
 
-# check if ansible repo is already cloned or not
+# check if Ansible repo is already cloned or not
 
 if [ -d $ANSIBLE_DIR ]; then
 

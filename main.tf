@@ -100,7 +100,7 @@ resource "aws_launch_template" "main" {
     )
   }
 
-  # tags attached to the volume created by instance
+  # tags attached to the volume created by instances
   tag_specifications {
     resource_type = "volume"
 
